@@ -9,12 +9,13 @@
     <title>Weather App</title>
 
     <link href="{% static 'weather.css' %}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 
 </head>
 
 <body>
     <div id="weather-container">
-        <h2>Weather App</h2>
+        <h2> Weather&ensp;<i onclick="location.href='./'" class="bi bi-house"></i> </h2>
         <input type="text" id="city" placeholder="Enter city">
         <button onclick="getWeather()">Search</button>
 
