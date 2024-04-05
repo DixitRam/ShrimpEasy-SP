@@ -1,5 +1,5 @@
 # Shrimp Easy
-
+This shrimp farm management website is envisioned as user-friendly and helps them to simply track all the growth of each farm digitally.
 ## Credits
 
 - [OpenWeather API](https://openweathermap.org/api)
